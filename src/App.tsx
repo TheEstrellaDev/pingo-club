@@ -31,10 +31,10 @@ const services = [
 ]
 
 const gallery = [
+  { src: gallerySalon, alt: 'Interior de Pingo Club con arcos decorativos y sillas infantiles para corte', label: 'Conoce nuestra estética' },
   { src: galleryPlayArea, alt: 'Área de juegos colorida de Pingo Club', label: 'Un espacio para jugar' },
   { src: galleryMascots, alt: 'Ilustraciones de Pingo Club en una pared celeste', label: 'El mundo Pingo' },
   { src: galleryMirror, alt: 'Espejo decorado con dibujos y adornos de colores', label: 'Detalles llenos de color' },
-  { src: gallerySalon, alt: 'Interior de la estética con sillas infantiles para corte', label: 'Conoce nuestra estética' },
 ]
 
 const questions = [
