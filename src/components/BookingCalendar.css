@@ -1,4 +1,4 @@
-.booking-section{background:#fffdf9}
+.booking-section{background:#fff8e9}
 .booking-heading{display:flex;align-items:center;justify-content:space-between;gap:30px;margin:25px 0 36px}
 .booking-heading h2{font-family:var(--heading);font-size:clamp(38px,4.3vw,58px);font-weight:600;line-height:1.06;letter-spacing:-2.7px;margin:0}
 .booking-heading h2 span{color:var(--orange)}

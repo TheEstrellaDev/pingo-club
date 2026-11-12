@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import logo from './assets/images/logo.jpg'
 import mascots from './assets/images/mascotitas.jpg'
-import place from './assets/images/lugar.jpg'
 import placeTwo from './assets/images/lugar2.jpg'
 import galleryPlayArea from './assets/images/gallery-juegos.jpg'
 import galleryMascots from './assets/images/gallery-mascotas.jpg'
@@ -92,7 +91,7 @@ function App() {
           <div className="hero-note"><span className="note-star">✳</span><span>Un lugar amable para<br />peques y familias</span></div>
         </div>
         <div className="hero-art">
-          <div className="hero-photo-wrap"><img src={place} alt="Interior de Pingo Club" fetchPriority="high" /><span className="photo-tag"><span>✳</span> Diversión en cada corte</span></div>
+          <div className="hero-photo-wrap"><img src={gallerySalon} alt="Interior de Pingo Club con sillas infantiles para corte" fetchPriority="high" /><span className="photo-tag"><span>✳</span> Diversión en cada corte</span></div>
           <div className="hero-sticker">¡Hola,<br /><b>familia!</b></div>
           <div className="hero-spark spark-one">✦</div><div className="hero-spark spark-two">✳</div>
         </div>
