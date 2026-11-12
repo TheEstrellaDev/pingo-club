@@ -24,6 +24,7 @@ Manrope para titulares y DM Sans para texto/interfaz, con Arial como respaldo. L
 - Botones y enlaces con estados hover y foco visible.
 - Galería mediante diálogo modal navegable por botones y teclado.
 - Acordeón operable con botones y `aria-expanded`.
+- Calendario de solicitud con controles nativos, selección de fecha/hora y una nota visible sobre confirmación manual por WhatsApp.
 
 ## Accesibilidad y movimiento
 

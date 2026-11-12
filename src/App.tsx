@@ -5,10 +5,11 @@ import place from './assets/images/lugar.jpg'
 import placeTwo from './assets/images/lugar2.jpg'
 import info from './assets/images/info.jpg'
 import infoTwo from './assets/images/info2.jpg'
+import BookingCalendar from './components/BookingCalendar'
 import './App.css'
 
 const links = [
-  ['Nosotros', '#nosotros'], ['Servicios', '#servicios'], ['Galería', '#galeria'],
+  ['Nosotros', '#nosotros'], ['Servicios', '#servicios'], ['Citas', '#citas'], ['Galería', '#galeria'],
   ['Preguntas', '#preguntas'], ['Contacto', '#contacto'],
 ] as const
 
@@ -86,7 +87,7 @@ function App() {
           <div className="eyebrow"><span className="eyebrow-dot" /> ESTÉTICA INFANTIL · GUADALUPE, ZAC.</div>
           <h1>Pequeños cortes,<br /><span>grandes sonrisas.</span></h1>
           <p>Un espacio pensado para que cada visita se sienta como una aventura. Diversión en cada corte.</p>
-          <div className="hero-actions"><a className="button button-orange" href={whatsappHref(social.phones[0])} target="_blank" rel="noreferrer">Escríbenos por WhatsApp <Arrow /></a><a className="text-link" href="#nosotros">Conoce Pingo Club <span aria-hidden="true">↓</span></a></div>
+          <div className="hero-actions"><a className="button button-orange" href={whatsappHref(social.phones[0])} target="_blank" rel="noreferrer">Escríbenos por WhatsApp <Arrow /></a><a className="text-link" href="#citas">Agenda una cita <span aria-hidden="true">↓</span></a></div>
           <div className="hero-note"><span className="note-star">✳</span><span>Un lugar amable para<br />peques y familias</span></div>
         </div>
         <div className="hero-art">
@@ -109,6 +110,8 @@ function App() {
         <div className="services-grid">{services.map((service, index) => <article className="service-card" key={service.title}><div className="service-number">{String(index + 1).padStart(2, '0')}</div><div className="service-copy"><span className="service-label">{service.note}</span><h3>{service.title}</h3><p>{service.detail}</p></div><div className="service-price">{service.price}</div></article>)}</div>
         <div className="service-foot"><span>PEINADOS DE FANTASÍA Y PINTA CARITAS · SOLO CON CITA</span><span>— PINGO CLUB</span></div>
       </section>
+
+      <BookingCalendar />
 
       <section className="experience" id="experiencia"><div className="experience-image"><img src={placeTwo} alt="Un vistazo al espacio de Pingo Club" loading="lazy" /><span className="image-index">GPE · ZACATECAS</span></div><div className="experience-copy"><div className="section-kicker">03 / A SU RITMO</div><h2>Paciencia,<br />color y <span>cariño.</span></h2><p>Sabemos que cada peque vive su visita a su manera. En Pingo Club, la idea es hacer del cuidado del cabello un momento más amable, cercano y lleno de buena energía.</p><div className="experience-sign">Con cariño, <b>Pingo Club</b> <span>✳</span></div></div></section>
 

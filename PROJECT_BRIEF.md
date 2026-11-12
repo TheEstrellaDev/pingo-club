@@ -14,6 +14,7 @@ La dueña confirmó los servicios y precios de inauguración, horarios, atenció
 
 - Navegación con enlaces a las secciones y menú móvil desplegable.
 - Hero, presentación, catálogo de servicios y sección de experiencia.
+- Calendario visual para solicitudes de cita de 45 minutos; horario sugerido por día y mensaje preparado en WhatsApp.
 - Galería con ampliación, controles anterior/siguiente y cierre por Escape o clic exterior.
 - Preguntas frecuentes tipo acordeón.
 - Dirección con búsqueda en Google Maps e Instagram/TikTok.
@@ -27,5 +28,6 @@ React + TypeScript + Vite. `App.tsx` contiene el contenido de una página y esta
 ## Pendientes comerciales y de publicación
 
 - Confirmar los medios de pago.
+- El calendario de esta etapa no persiste citas ni muestra disponibilidad compartida; una integración backend posterior tendrá que guardar, confirmar y bloquear horarios.
 - Revisar autorización para publicar cualquier imagen con menores identificables antes de activar el sitio.
 - Completar y validar textos e imágenes para la publicación definitiva.

@@ -42,3 +42,7 @@ El repositorio conserva el workflow de GitHub Pages en `.github/workflows/`. Pub
 ## Información pendiente
 
 La información publicada incluye los servicios, precios de inauguración y horarios comunicados por la dueña. Los números oficiales de teléfono y WhatsApp ya están integrados. Antes de desplegar, confirmar autorización para publicar fotografías en las que puedan aparecer menores identificables.
+
+## Solicitud de citas
+
+La página incluye un calendario visual con horarios sugeridos de 45 minutos, selector de servicio y nombre de la persona tutora. Al enviar, abre WhatsApp con el mensaje preparado para que la familia solicite el horario. Esta etapa no consulta disponibilidad en tiempo real, no guarda solicitudes ni confirma o bloquea una cita; el negocio confirma por WhatsApp. La conexión a Supabase y los mensajes automáticos de WhatsApp Business quedan para una fase posterior.
