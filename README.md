@@ -41,4 +41,4 @@ El repositorio conserva el workflow de GitHub Pages en `.github/workflows/`. Pub
 
 ## Información pendiente
 
-Confirmar el catálogo y descripción de servicios, precios, horarios y política de citas. El teléfono y WhatsApp oficial ya están integrados. Las preguntas frecuentes identifican explícitamente lo que aún no está publicado. Antes de desplegar, confirmar autorización para publicar fotografías en las que puedan aparecer menores identificables.
+La información publicada incluye los servicios, precios de inauguración y horarios comunicados por la dueña. Los números oficiales de teléfono y WhatsApp ya están integrados. Antes de desplegar, confirmar autorización para publicar fotografías en las que puedan aparecer menores identificables.
