@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import logo from './assets/images/logo.jpg'
 import mascots from './assets/images/mascotitas.jpg'
-import placeTwo from './assets/images/lugar2.jpg'
+import galleryMirror from './assets/images/gallery-espejo.jpg'
 import galleryPlayArea from './assets/images/gallery-juegos.jpg'
 import galleryMascots from './assets/images/gallery-mascotas.jpg'
 import gallerySalon from './assets/images/gallery-estetica.jpg'
@@ -33,8 +33,8 @@ const services = [
 const gallery = [
   { src: gallerySalon, alt: 'Interior de Pingo Club con arcos decorativos y sillas infantiles para corte', label: 'Conoce nuestra estética' },
   { src: galleryPlayArea, alt: 'Área de juegos colorida de Pingo Club', label: 'Un espacio para jugar' },
+  { src: galleryMirror, alt: 'Espejo decorado con ilustraciones coloridas en Pingo Club', label: 'Detalles llenos de color' },
   { src: galleryMascots, alt: 'Ilustraciones de Pingo Club en una pared celeste', label: 'El mundo Pingo' },
-  { src: placeTwo, alt: 'Interior de Pingo Club mostrado en el apartado Paciencia, color y cariño', label: 'Un espacio amable para cada visita' },
 ]
 
 const questions = [
