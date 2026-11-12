@@ -5,6 +5,7 @@ import placeTwo from './assets/images/lugar2.jpg'
 import galleryPlayArea from './assets/images/gallery-juegos.jpg'
 import galleryMascots from './assets/images/gallery-mascotas.jpg'
 import gallerySalon from './assets/images/gallery-estetica.jpg'
+import experiencePhoto from './assets/images/experience.jpg'
 import BookingCalendar from './components/BookingCalendar'
 import './App.css'
 
@@ -112,7 +113,7 @@ function App() {
 
       <BookingCalendar />
 
-      <section className="experience" id="experiencia"><div className="experience-image"><img src={placeTwo} alt="Un vistazo al espacio de Pingo Club" loading="lazy" /><span className="image-index">GPE · ZACATECAS</span></div><div className="experience-copy"><div className="section-kicker">03 / A SU RITMO</div><h2>Paciencia,<br />color y <span>cariño.</span></h2><p>Sabemos que cada peque vive su visita a su manera. En Pingo Club, la idea es hacer del cuidado del cabello un momento más amable, cercano y lleno de buena energía.</p><div className="experience-sign">Con cariño, <b>Pingo Club</b> <span>✳</span></div></div></section>
+      <section className="experience" id="experiencia"><div className="experience-image"><img src={experiencePhoto} alt="Espejo decorado con ilustraciones coloridas en Pingo Club" loading="lazy" /><span className="image-index">GPE · ZACATECAS</span></div><div className="experience-copy"><div className="section-kicker">03 / A SU RITMO</div><h2>Paciencia,<br />color y <span>cariño.</span></h2><p>Sabemos que cada peque vive su visita a su manera. En Pingo Club, la idea es hacer del cuidado del cabello un momento más amable, cercano y lleno de buena energía.</p><div className="experience-sign">Con cariño, <b>Pingo Club</b> <span>✳</span></div></div></section>
 
       <section className="gallery-section section-pad" id="galeria"><div className="section-kicker">04 / UN VISTAZO A PINGO</div><div className="gallery-heading"><h2>Color por<br /><span>todos lados.</span></h2><p>Asómate al mundo Pingo.<br />Toca una imagen para verla mejor.</p></div><div className="gallery-grid">{gallery.map((item, index) => <button type="button" className={`gallery-item gallery-item-${index + 1}`} key={item.src} onClick={() => setActiveImage(index)} aria-label={`Ampliar imagen: ${item.label}`}><img src={item.src} alt={item.alt} loading="lazy" /><span className="gallery-caption">{item.label}<span>↗</span></span></button>)}</div></section>
 
