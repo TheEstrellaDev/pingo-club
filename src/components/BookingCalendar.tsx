@@ -67,12 +67,12 @@ export default function BookingCalendar() {
     if (!selectedDate || !selectedTime || !selectedService) return
 
     const message = [
-      'Hola, quiero solicitar una cita en Pingo Club.',
+      'Hola, quiero agendar una cita en Pingo Club.',
       'Nombre: ' + customerName.trim(),
       'Servicio: ' + selectedService,
-      'Fecha: ' + formatDate(selectedDate),
-      'Hora solicitada: ' + selectedTime,
-      '¿Me confirman si este horario está disponible?',
+      'Fecha solicitada: ' + formatDate(selectedDate),
+      'Hora solicitada: ' + selectedTime + ' (45 minutos)',
+      '¿Tienen disponibilidad en ese horario? Si no, ¿qué horarios tienen disponibles?',
     ].join('\n')
 
     window.open('https://wa.me/' + whatsappNumber + '?text=' + encodeURIComponent(message), '_blank', 'noopener,noreferrer')
@@ -143,7 +143,7 @@ export default function BookingCalendar() {
             <input id="booking-name" name="customer_name" autoComplete="name" required maxLength={80} value={customerName} onChange={(event) => setCustomerName(event.target.value)} placeholder="Tu nombre" />
           </label>
           <button className="booking-submit" type="submit" disabled={!selectedDate || !selectedTime || !selectedService || !customerName.trim()}>
-            Solicitar por WhatsApp <span aria-hidden="true">↗</span>
+            Preguntar disponibilidad por WhatsApp <span aria-hidden="true">↗</span>
           </button>
           <p className="booking-confirmation-note" role="status">La cita no queda confirmada al elegirla. WhatsApp abrirá un mensaje para coordinar y confirmar con Pingo Club.</p>
         </div>

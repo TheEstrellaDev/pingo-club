@@ -10,3 +10,33 @@
 @media(max-width:900px){.site-header{padding:0 5vw}.main-nav{gap:18px}.main-nav>a{font-size:10px}.hero{padding-left:7vw;padding-right:7vw}.hero-photo-wrap{height:370px}.section-pad{padding-left:8vw;padding-right:8vw}.faq{gap:45px}.experience-copy{padding-left:8vw;padding-right:6vw}.site-footer{padding-left:5vw;padding-right:5vw;flex-wrap:wrap}.site-footer nav{order:4;width:100%;justify-content:center}.copyright{margin-left:auto}}
 @media(max-width:650px){.services-grid{grid-template-columns:1fr;gap:9px}.service-card{min-height:125px;padding:18px 14px;grid-template-columns:32px 1fr auto;gap:9px}.service-number{font-size:21px}.service-copy h3{font-size:16px}.service-copy p{font-size:9px}.service-label{font-size:6px;letter-spacing:.6px}.service-price{font-size:16px}.service-foot{font-size:6px;letter-spacing:.6px}.contact-hours{font-size:9px}.whatsapp-numbers{gap:8px;flex-direction:column}}
 @media(max-width:650px){html{scroll-padding-top:72px}.site-header{height:70px;padding:0 20px}.brand img{width:132px}.menu-toggle{display:grid;place-items:center;width:42px;height:42px;border:1px solid #e8dff0;background:transparent;border-radius:4px;color:var(--purple);cursor:pointer}.menu-icon{font-size:22px;line-height:1}.main-nav{display:none;position:absolute;top:69px;left:0;right:0;padding:16px 21px 22px;background:#fffdf9;box-shadow:0 12px 20px rgba(44,31,46,.1);align-items:stretch;gap:0;flex-direction:column}.main-nav.is-open{display:flex}.main-nav>a{font-size:13px;padding:13px 5px;border-bottom:1px solid #f0ebf0}.main-nav .nav-cta{margin-top:13px;padding:14px 16px;text-align:center;border:0}.hero{display:flex;flex-direction:column;align-items:stretch;padding:57px 24px 68px;gap:35px;min-height:auto}.hero h1{font-size:47px;letter-spacing:-2.6px;margin:22px 0 15px}.hero-copy>p{font-size:13px;max-width:350px}.hero-actions{gap:17px;flex-wrap:wrap;margin-top:24px}.button-orange{padding:14px 14px;font-size:10px}.text-link{font-size:9px}.hero-note{margin-top:30px}.hero-art{justify-self:auto;width:calc(100% - 18px);align-self:center;padding:0 12px 15px 0}.hero-photo-wrap{height:min(96vw,390px)}.hero-photo-wrap>img{border-radius:48% 48% 6px 6px}.hero-sticker{width:76px;height:76px;right:-11px;top:19px;font-size:11px}.photo-tag{left:12px;bottom:12px}.spark-two{left:-12px;top:45px}.hero-bottom{bottom:20px;white-space:nowrap;font-size:7px}.section-pad{padding:72px 24px}.section-kicker{font-size:8px}.intro-grid,.section-heading{grid-template-columns:1fr;gap:17px;margin:22px 0 31px}.intro h2,.section-heading h2,.experience h2,.gallery-heading h2,.faq h2{font-size:43px;letter-spacing:-2.5px}.intro-text p,.section-heading>p,.experience-copy>p{font-size:12px}.mascot-strip{height:155px}.mascot-strip img{width:70%}.mascot-caption{font-size:7px;letter-spacing:.7px}.service-card{padding:22px 18px;grid-template-columns:42px 1fr 38px;gap:12px}.service-number{font-size:27px}.service-copy h3{font-size:18px}.service-copy p{font-size:10px}.service-label{font-size:7px;letter-spacing:.8px}.round-arrow{width:37px;height:37px}.service-foot{font-size:6px;letter-spacing:.8px}.experience{grid-template-columns:1fr}.experience-image{min-height:300px}.experience-copy{padding:56px 24px 64px}.experience h2{margin:20px 0 16px}.gallery-heading{align-items:start;gap:15px;flex-direction:column;margin:21px 0 27px}.gallery-heading p{margin:0}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:230px 155px 155px;gap:9px}.gallery-item-1{grid-column:span 2;grid-row:auto}.gallery-item-4{grid-column:auto}.gallery-caption{font-size:9px;left:10px;right:10px;bottom:10px}.faq{grid-template-columns:1fr;gap:34px}.faq h2{margin:20px 0 12px}.faq-intro>p{font-size:11px}.faq-item h3 button{font-size:12px;padding:17px 0}.faq-item>p{font-size:10px}.contact{padding-top:64px;padding-bottom:48px}.contact-top{padding-bottom:37px;align-items:end}.contact h2{font-size:47px;letter-spacing:-2.7px}.contact-button{width:89px;height:89px;font-size:9px;gap:4px;flex-direction:column}.contact-button>span+span{font-size:15px}.contact-details{padding-top:27px;gap:22px}.address-block p{font-size:10px}.address-block a,.social-block a{font-size:9px}.social-block{min-width:115px}.detail-label{font-size:7px;letter-spacing:1px}.site-footer{padding:22px 24px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.footer-brand img{width:110px}.footer-tagline{justify-self:end}.site-footer nav{grid-column:1/-1;order:initial;justify-content:flex-start;gap:15px;flex-wrap:wrap}.site-footer nav a{font-size:8px}.copyright{grid-column:1/-1;margin:0}.lightbox{padding:55px 48px}.lightbox figure{max-width:88vw}.lightbox figure img{max-height:70vh}.lightbox-prev{left:5px}.lightbox-next{right:5px}.lightbox-close{right:15px;top:9px}.lightbox-nav{font-size:38px}}
+
+@media(max-width:650px){
+  .service-card{grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:12px;row-gap:5px;padding:16px;min-width:0}
+  .service-number{grid-column:1/-1;font-size:10px;line-height:1}
+  .service-copy{grid-column:1;min-width:0}
+  .service-copy h3{font-size:16px;overflow-wrap:anywhere}
+  .service-copy p{font-size:10px}
+  .service-label{font-size:7px;line-height:1.4;letter-spacing:.5px}
+  .service-price{grid-column:2;grid-row:2;max-width:100%;font-size:clamp(12px,4vw,16px);white-space:normal;overflow-wrap:anywhere;text-align:center;line-height:1.2}
+  .service-foot{align-items:flex-start;gap:12px;font-size:8px;line-height:1.5;letter-spacing:.4px}
+  .hero h1{font-size:clamp(38px,12vw,47px);letter-spacing:-2.3px}
+  .hero-actions{gap:14px}
+  .text-link{font-size:10px}
+  .contact-details{grid-template-columns:1fr;gap:28px}
+  .social-block{justify-self:start;min-width:0}
+  .address-block a,.social-block a{font-size:11px}
+  .address-block p{font-size:11px}
+  .site-footer nav a{font-size:10px}
+  .copyright{font-size:9px}
+}
+
+@media(max-width:360px){
+  .site-header{padding-inline:15px}
+  .hero{padding-inline:18px}
+  .section-pad{padding-inline:18px}
+  .hero-actions{align-items:flex-start;flex-direction:column}
+  .service-card{padding:14px 12px;column-gap:8px}
+  .service-price{font-size:12px}
+  .gallery-grid{grid-template-rows:200px 135px 135px}
+}
