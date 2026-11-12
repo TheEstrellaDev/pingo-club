@@ -1,75 +1,44 @@
-# React + TypeScript + Vite
+# Pingo Club
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web responsive para Pingo Club, estética infantil en Guadalupe, Zacatecas. Construido con React, TypeScript y Vite, preparado para GitHub Pages en `/pingo-club/`.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js compatible con Vite 8.
+- npm.
 
-## React Compiler
+## Instalación y uso local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Vite muestra la URL local en la terminal.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Comprobaciones y compilación
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run lint
+npm run build
+npm run preview
 ```
+
+La compilación final se genera en `dist/`. `vite.config.ts` fija `base: '/pingo-club/'`; la vista previa debe servirse bajo esa ruta al revisar rutas del despliegue.
+
+## Despliegue
+
+El repositorio conserva el workflow de GitHub Pages en `.github/workflows/`. Publica la rama configurada en GitHub Pages después de revisar el resultado compilado. No se incluye ningún cambio de publicación en esta entrega.
+
+## Estructura
+
+- `src/App.tsx`: secciones, navegación, acordeón y galería ampliable.
+- `src/App.css`: estilos de componentes y diseño responsive.
+- `src/index.css`: estilos globales, accesibilidad y movimiento reducido.
+- `src/assets/images/`: recursos originales proporcionados; no se reemplazan.
+- `PROJECT_BRIEF.md`: alcance y contenido comercial.
+- `DESIGN_SYSTEM.md`: decisiones de identidad y componentes visuales.
+
+## Información pendiente
+
+Confirmar el catálogo y descripción de servicios, precios, horarios y política de citas. El teléfono y WhatsApp oficial ya están integrados. Las preguntas frecuentes identifican explícitamente lo que aún no está publicado. Antes de desplegar, confirmar autorización para publicar fotografías en las que puedan aparecer menores identificables.
