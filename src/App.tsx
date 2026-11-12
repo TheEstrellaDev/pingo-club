@@ -4,7 +4,6 @@ import mascots from './assets/images/mascotitas.jpg'
 import placeTwo from './assets/images/lugar2.jpg'
 import galleryPlayArea from './assets/images/gallery-juegos.jpg'
 import galleryMascots from './assets/images/gallery-mascotas.jpg'
-import galleryMirror from './assets/images/gallery-espejo.jpg'
 import gallerySalon from './assets/images/gallery-estetica.jpg'
 import BookingCalendar from './components/BookingCalendar'
 import './App.css'
@@ -34,7 +33,7 @@ const gallery = [
   { src: gallerySalon, alt: 'Interior de Pingo Club con arcos decorativos y sillas infantiles para corte', label: 'Conoce nuestra estética' },
   { src: galleryPlayArea, alt: 'Área de juegos colorida de Pingo Club', label: 'Un espacio para jugar' },
   { src: galleryMascots, alt: 'Ilustraciones de Pingo Club en una pared celeste', label: 'El mundo Pingo' },
-  { src: galleryMirror, alt: 'Espejo decorado con dibujos y adornos de colores', label: 'Detalles llenos de color' },
+  { src: placeTwo, alt: 'Interior de Pingo Club mostrado en el apartado Paciencia, color y cariño', label: 'Un espacio amable para cada visita' },
 ]
 
 const questions = [
