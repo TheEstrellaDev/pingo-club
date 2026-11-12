@@ -6,6 +6,10 @@ Original image assets supplied for the Pingo Club website.
 |---|---|
 | info.jpg | Business information or promotional material |
 | info2.jpg | Additional business information |
+| gallery-juegos.jpg | New client-provided photo of the play area; gallery |
+| gallery-mascotas.jpg | New client-provided photo of the mascot wall; gallery |
+| gallery-espejo.jpg | New client-provided photo of the decorated mirror; gallery |
+| gallery-estetica.jpg | New client-provided photo of the salon interior; gallery |
 | logo.jpg | Official brand logo |
 | lugar.jpg | Business interior or location |
 | lugar2.jpg | Additional location photography |

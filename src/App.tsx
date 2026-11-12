@@ -3,8 +3,10 @@ import logo from './assets/images/logo.jpg'
 import mascots from './assets/images/mascotitas.jpg'
 import place from './assets/images/lugar.jpg'
 import placeTwo from './assets/images/lugar2.jpg'
-import info from './assets/images/info.jpg'
-import infoTwo from './assets/images/info2.jpg'
+import galleryPlayArea from './assets/images/gallery-juegos.jpg'
+import galleryMascots from './assets/images/gallery-mascotas.jpg'
+import galleryMirror from './assets/images/gallery-espejo.jpg'
+import gallerySalon from './assets/images/gallery-estetica.jpg'
 import BookingCalendar from './components/BookingCalendar'
 import './App.css'
 
@@ -30,11 +32,10 @@ const services = [
 ]
 
 const gallery = [
-  { src: place, alt: 'Espacio de Pingo Club', label: 'Un espacio para disfrutar' },
-  { src: placeTwo, alt: 'Detalles del establecimiento Pingo Club', label: 'Conoce nuestro espacio' },
-  { src: mascots, alt: 'Mascotas originales de Pingo Club', label: 'El mundo Pingo' },
-  { src: info, alt: 'Información visual de Pingo Club', label: 'Diversión en cada corte' },
-  { src: infoTwo, alt: 'Material informativo de Pingo Club', label: 'Un lugar especial' },
+  { src: galleryPlayArea, alt: 'Área de juegos colorida de Pingo Club', label: 'Un espacio para jugar' },
+  { src: galleryMascots, alt: 'Ilustraciones de Pingo Club en una pared celeste', label: 'El mundo Pingo' },
+  { src: galleryMirror, alt: 'Espejo decorado con dibujos y adornos de colores', label: 'Detalles llenos de color' },
+  { src: gallerySalon, alt: 'Interior de la estética con sillas infantiles para corte', label: 'Conoce nuestra estética' },
 ]
 
 const questions = [
